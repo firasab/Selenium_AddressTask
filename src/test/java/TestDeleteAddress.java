@@ -44,8 +44,7 @@ public class TestDeleteAddress {
             //get the value of the First Name cells
             String name = dataTable.getCellValue(i, "First name");
 
-            //////////////////////////// Error ///////////////////////////////
-            //// how to click the wanted name show/////////////////////////////////////////////
+
 
             //check if the name is same - if it is the name then open his profile
             if (name.equals(SearchedName)) {
