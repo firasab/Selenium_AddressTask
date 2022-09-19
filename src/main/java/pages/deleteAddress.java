@@ -9,8 +9,9 @@ public class deleteAddress {
 
     WebElement driver;
 
-    public deleteAddress(WebDriver driver) {
-        this.addressBtn = driver.findElement(By.linkText("Destroy"));
+    public deleteAddress(WebDriver driver , int i ) {
+        int k = i+1;
+        this.addressBtn = driver.findElement(By.linkText("/html/body/div/table/tbody/tr["+k+"]/td[7]/a"));
     }
 
     public void deleteAddressesProfile() {

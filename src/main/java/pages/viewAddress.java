@@ -9,13 +9,14 @@ import org.openqa.selenium.WebElement;
 public class viewAddress {
     WebElement addressBtn;
 
-    WebElement driver;
 
-    public viewAddress(WebDriver driver) {
-        this.addressBtn = driver.findElement(By.linkText("Show"));
+    public viewAddress(WebDriver driver, int i) {
+        int k = i+1;
+        this.addressBtn = driver.findElement(By.xpath("/html/body/div/table/tbody/tr["+k+"]/td[5]/a"));
     }
 
-    public void getAddressesProfile(){
+    // use it by xpath and send to the function the i of the td
+    public void getAddressesProfile( ){
         this.addressBtn.click();
 
     }

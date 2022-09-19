@@ -46,16 +46,15 @@ public class TestViewAddress {
             //get the value of the First Name cells
             String name = dataTable.getCellValue(i, "First name");
 
-            //////////////////////////// Error ///////////////////////////////
-            //// how to click the wanted name show/////////////////////////////////////////////
-            System.out.println(SearchedName);
-            System.out.println(name);
+
+            System.out.println("the wanted name is " + SearchedName);
+            System.out.println("the found name " + name);
 
             //check if the name is same - if its samer then open his profile
             int checker = name.compareTo(SearchedName);
             if (checker == 0) {
 
-                viewAddress viewer = new viewAddress(driver);
+                viewAddress viewer = new viewAddress(driver , i);
                 viewer.getAddressesProfile();
             }
         }

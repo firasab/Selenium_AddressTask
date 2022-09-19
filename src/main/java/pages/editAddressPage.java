@@ -114,8 +114,24 @@ public class editAddressPage {
             this.address_phone.clear();
             this.address_phone.sendKeys(phone);
         }
-        ////////////////////////////////////////////////// how to clear radius button ////////////////
+        //////////////////////////////////////////////////  clear radius button ////////////////
+        boolean climb =  this.address_interest_climb.isSelected();
+        boolean dance =  this.address_interest_dance.isSelected();
+        boolean read = this.address_interest_read.isSelected();
+        if( climb == true ){
+            this.address_interest_climb.click();
+        }
+        if ( dance  == true ){
+            this.address_interest_dance.click();
+        }
+        if ( read  == true  ){
+            this.address_interest_read.click();
+        }
+
+        // to check the user interest//
+
         if ( address_interest_climb == "Yes") {
+
             this.address_interest_climb.click();
         }
 

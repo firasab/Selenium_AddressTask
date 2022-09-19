@@ -49,7 +49,7 @@ public class TestDeleteAddress {
 
             //check if the name is same - if it is the name then open his profile
             if (name.equals(SearchedName)) {
-                deleteAddress deleter = new deleteAddress(driver);
+                deleteAddress deleter = new deleteAddress(driver , i);
                 deleter.deleteAddressesProfile();
                 Thread.sleep(5000);
                 driver.switchTo().alert().accept();

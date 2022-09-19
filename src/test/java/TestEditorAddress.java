@@ -49,7 +49,7 @@ public class TestEditorAddress {
 
             //check if the name is same - if it is the name then open his profile
             if (name.equals(SearchedName)) {
-                editAddress editor = new editAddress(driver);
+                editAddress editor = new editAddress(driver, i);
                 editor.editAddressesProfile();
             }
 

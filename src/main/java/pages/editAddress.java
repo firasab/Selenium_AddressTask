@@ -10,8 +10,9 @@ public class editAddress {
 
     WebElement driver;
 
-    public editAddress(WebDriver driver) {
-        this.addressBtn = driver.findElement(By.linkText("Edit"));
+    public editAddress(WebDriver driver, int i) {
+        int k = i+1;
+        this.addressBtn = driver.findElement(By.xpath("/html/body/div/table/tbody/tr["+k+"]/td[6]/a"));
     }
 
     public void editAddressesProfile(){
