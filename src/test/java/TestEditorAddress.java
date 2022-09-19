@@ -24,7 +24,7 @@ public class TestEditorAddress {
     public void secondTest() throws InterruptedException {
 
         loginPage resPage = new loginPage(driver);
-        String SearchedName = "samer";
+        String SearchedName = "firas";
 
         Thread.sleep(5000);
         resPage.putInfo("firas.abu.sneneh@hotmail.com", "123");
@@ -54,7 +54,7 @@ public class TestEditorAddress {
         }
         Thread.sleep(5000);
         editAddressPage editAddress = new editAddressPage(driver);
-        editAddress.editInformation( "kamel", "tojani","","","","Texas","","","","","","Yes" , "Yes", "Yes");
+        editAddress.editInformation( "kamel", "tojani","jerusalem","issaweya","palestine","Texas","123","Canada","26","http://firas.com","052-807-6374","Yes" , "Yes", "Yes");
         Thread.sleep(5000);
 
         detailsCheck check = new detailsCheck(driver);

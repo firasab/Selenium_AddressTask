@@ -108,7 +108,7 @@ public class editAddressPage {
         }
         if(website != ""){
             this.address_website.clear();
-            this.address_website.sendKeys("http://"+website);
+            this.address_website.sendKeys(website);
         }
         if(phone != ""){
             this.address_phone.clear();

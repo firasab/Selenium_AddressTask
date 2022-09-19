@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPingggg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/editAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/editAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestEditorAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEditorAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testPingggg.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,22 +68,11 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testPingggg.testBing">
+  <component name="RunManager" selected="TestNG.TestEditorAddress">
     <configuration name="TestCreateAnAddress" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_TableTask" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCreateAnAddress" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDeleteAddress" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_AddressTask" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDeleteAddress" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -93,6 +85,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestEditorAddress" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEditorAddress.secondTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_AddressTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestEditorAddress" />
+      <option name="METHOD_NAME" value="secondTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestEditorAddress" />
+        <item itemvalue="TestNG.TestEditorAddress.secondTest" />
         <item itemvalue="TestNG.testPingggg.testBing" />
         <item itemvalue="TestNG.testPingggg" />
-        <item itemvalue="TestNG.TestEditorAddress" />
         <item itemvalue="TestNG.TestViewAddress" />
-        <item itemvalue="TestNG.TestDeleteAddress" />
       </list>
     </recent_temporary>
   </component>
