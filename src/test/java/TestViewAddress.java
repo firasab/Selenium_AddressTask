@@ -25,7 +25,7 @@ public class TestViewAddress {
     public void secondTest() throws InterruptedException {
 
         loginPage resPage = new loginPage(driver);
-        String SearchedName = "samer";
+        String SearchedName = "firas";
 
         Thread.sleep(5000);
         resPage.putInfo("firas.abu.sneneh@hotmail.com", "123");
@@ -39,6 +39,14 @@ public class TestViewAddress {
         Table dataTable = new Table(driver, tableWebElement);
         int rowsNumber = dataTable.getRowNumber();
         System.out.println(rowsNumber);
+
+
+        String title = driver.getTitle();
+        System.out.println(title);
+
+        String url = driver.getCurrentUrl();
+        System.out.println(url);
+
 
 
         for ( int i = 0; i<rowsNumber; i++) {

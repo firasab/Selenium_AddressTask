@@ -12,19 +12,19 @@ public class OpenBrowsers {
         WebDriver driver;
         if(browser.equals("firefox")) {
             //Setting webdriver.gecko.driver property
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\firas\\Desktop\\Selenium_AddressTask\\src\\main\\resources\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 
             //Instantiating driver object and launching browser
             driver = new FirefoxDriver();
         }else if(browser.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\firas\\Desktop\\Selenium_AddressTask\\src\\main\\resources\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
             //Instantiating driver object
             driver = new ChromeDriver();
         }else if(browser.equals("edge")) {
             System.setProperty(
                     "webdriver.edge.driver",
-                    "C:\\Users\\firas\\Desktop\\Selenium_AddressTask\\src\\main\\resources\\msedgedriver.exe");
+                    "src/main/resources/msedgedriver.exe");
             // Instantiate a ChromeDriver class.
             driver = new EdgeDriver();
         }else {
